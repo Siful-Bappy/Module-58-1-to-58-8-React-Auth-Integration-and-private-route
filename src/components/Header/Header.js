@@ -19,6 +19,10 @@ const Header = () => {
         <Link to="/products">Products</Link>
         <Link to="/orders">Orders</Link>
         <Link to="/register">Register</Link>
+        {
+          user && 
+          <Link to="/vip">VIP</Link>
+        }
         <Link to="/about up">About us</Link>
         <span>{user?.displayName && user.displayName}</span>
         {
