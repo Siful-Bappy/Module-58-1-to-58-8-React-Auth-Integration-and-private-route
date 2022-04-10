@@ -3,7 +3,7 @@ import useFirebase from "../../Hooks/useFirebase";
 
 const Login = () => {
     const {singInWithGoogle} = useFirebase();
-    console.log(singInWithGoogle);
+    // console.log(singInWithGoogle);
   return (
     <div>
       <h2>This is login section</h2>
