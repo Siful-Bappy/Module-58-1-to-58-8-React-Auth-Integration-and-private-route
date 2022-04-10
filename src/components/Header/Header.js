@@ -8,8 +8,8 @@ const Header = () => {
   return (
     <div className="header">
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/prducts">Products</Link>
+        <Link to="/home">Home</Link>
+        <Link to="/products">Products</Link>
         <Link to="/orders">Orders</Link>
         <Link to="/register">Register</Link>
         <Link to="/about up">About us</Link>

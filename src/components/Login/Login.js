@@ -2,7 +2,8 @@ import React from "react";
 import useFirebase from "../../Hooks/useFirebase";
 
 const Login = () => {
-    const {singInWithGoogle} = useFirebase();
+    // custom one we use before 
+    // const {singInWithGoogle} = useFirebase();
     // console.log(singInWithGoogle);
   return (
     <div>

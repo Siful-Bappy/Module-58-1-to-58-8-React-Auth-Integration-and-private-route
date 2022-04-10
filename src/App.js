@@ -5,6 +5,8 @@ import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import Header from './components/Header/Header';
 import Register from './components/Register/Register';
+import Products from './components/Products/Products';
+import PageInvalid from './components/PageInvalid/PageInvalid';
 
 function App() {
   return (
@@ -15,6 +17,8 @@ function App() {
         <Route path="/home" element={<Home></Home>}></Route>
         <Route path="/login" element={<Login></Login>}></Route>
         <Route path="/register" element={<Register></Register>}></Route>
+        <Route path="/products" element={<Products></Products>}></Route>
+        <Route path='*' element={<PageInvalid></PageInvalid>}></Route>
       </Routes>
     </div>
   );
